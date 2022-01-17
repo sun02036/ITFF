@@ -1,5 +1,3 @@
-# itff3
-
 # Project Title / ITFF
 
 ![메인 날짜 없는 남색](https://user-images.githubusercontent.com/85632733/149429117-10d17d49-1edd-4540-bda8-1060d182e7f6.jpg)
