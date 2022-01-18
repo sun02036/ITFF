@@ -67,29 +67,17 @@
 			<hr />
 			
 			<div class="msg_section">	
-			<h2 class="m-3">
-			읽은 알림
-			</h2>
-			<div id="oldList">
-<%-- 			<c:forEach var="list" items="${oldList}"> --%>
-<%-- 				<div class="card form-group col-sm-10 mx-auto p-0" onClick="location.href='${list.n_url}'"> --%>
-<!-- 					<div class="card-body pt-3"> -->
-<!-- 						<div class="row px-3 mb-2"> -->
-<%-- 					        <strong class="d-block text-gray-dark">${list.n_type}</strong> --%>
-<%-- 					        <span class="text-muted ml-auto">${list.n_time}</span> --%>
-<!-- 						</div> -->
-<%-- 				        <span>${list.n_content}</span> --%>
-<!-- 				    </div> -->
-<!-- 				</div>			 -->
-<%-- 			</c:forEach> --%>
-			</div>
+				<h2 class="m-3">
+				읽은 알림
+				</h2>
+				<div id="oldList"></div>
 			</div>
 			<button id="searchMoreNotify" class="btn btn-outline-secondary btn-block col-sm-10 mx-auto">더 보기</button>
 	</div>
 </div>
 </div><!-- // conwid80 -->
 
-<script type="text/javascript">
+<script>
 	$(document).ready(function(){
 		// 읽은 알림 총 갯수
 		var oldListCnt = '${oldListCnt}';

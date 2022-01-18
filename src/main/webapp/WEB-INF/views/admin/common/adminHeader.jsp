@@ -121,15 +121,7 @@ $(document).ready(function() {
 
 		console.log(socket);
 
-		// send 클릭시
-		// 		 $("#sendBtn").click(function(){
-		// 			 sendMessage();
-		// 		 })
 	});
-
-// 	function sendMessage(){
-// 		sock.send($("#inputMsg").val());	// 소켓으로 전송
-// 	}
 
 </script>
 
