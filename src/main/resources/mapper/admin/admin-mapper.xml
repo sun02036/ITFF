@@ -1565,8 +1565,6 @@
 		on r.movie_schedule_id = s.movie_schedule_id
 		where 
 			movie_reservation_id = #{movieReservationId}
-		order by 
-			s.seat_no
 	</select>
 	
 	<select id="selectTodayMovieReservationList" resultType="movieReservation">
